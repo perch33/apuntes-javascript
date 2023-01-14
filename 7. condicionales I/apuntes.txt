@@ -1,0 +1,63 @@
+flujo de programa
+
+el flujo de un programa siempre sera de arriba abajo
+
+let num = 2;
+
+console.log(num);
+
+num = 5;
+
+console.log(num);
+
+let word = 'hola mundo';
+
+console.log(word);
+
+
+
+
+
+estructura de control de flujo:
+
+condicionales
+
+simples (solo comprueban una cosa)
+
+compuestos (solo comprueban una cosa y su caso contrario)
+
+multiples (controla varios casos)
+
+Bucles
+
+determinados
+
+indeterminados
+
+
+
+
+
+estructura IF-ELSE
+
+Sintaxis:
+
+condicion simple:
+
+if(condicion) //condicion a ejecutar
+
+
+
+if(condicion){
+
+//codigo a ejecutar 1
+
+//codigo a ejecutar 2
+
+}
+
+condicion compuesta:
+
+if (condicion) //codigo a ejecutar
+
+else //codigo a ejecutar en caso contrario

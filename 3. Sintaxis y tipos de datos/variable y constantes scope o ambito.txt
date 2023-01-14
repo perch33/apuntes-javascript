@@ -1,0 +1,15 @@
+VARIBLES Y CONSTANTES
+SCOPE O AMBITO
+
+
+-una variable es un espacio que reservamos en memoria para almacenar un dato que podra cambiar durante la ejecucion de nuestro programa.
+-la palabra reservada para declarar variables es "let" no es recomendable usar "var"
+
+
+-las variables se puden: declarar, inicializar y modificar.
+
+
+-una constantes es un espacio que reservamos en memoria para almacenar un dato que no cambiara durante la ejecucion de nuestro programa.
+-la palabra reservada para declarar constantes es "const"
+
+-el scope o ambito es la zona donde existe nuestra variable.

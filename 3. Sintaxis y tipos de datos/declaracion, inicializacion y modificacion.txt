@@ -1,0 +1,22 @@
+-una variable se declara con la siguiente estructura:
+
+let numero; (se puede declarar vacia)
+
+
+-una variable se inicializa con la siguiente estructura:
+
+numero = 5;
+
+
+-se puede declarar e inicializar en la misma variable:
+
+let numero = 5;
+
+
+-para modificar el valor de una variable existente:
+
+numero = 3; (se tiene que hacer dentro del bloque o ambito)
+
+-las constantes solo admiten la declaracion e inicializacion en la misma sentencia.
+
+const PI = 3.14;

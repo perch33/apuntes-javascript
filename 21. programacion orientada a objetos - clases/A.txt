@@ -1,0 +1,17 @@
+programacion orientada a objetos
+
+es un paradigma de la programacion que actualiza la forma de programar anterior (una forma de resolver un problema)
+
+algunos de los conceptos fundamentales son:
+
+-clase
+
+-herencia
+
+-objeto
+
+-metodo
+
+-evento
+
+etc

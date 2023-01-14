@@ -1,0 +1,11 @@
+metodos y propiedades de los string
+
+método: es todo aquello que la cadena puede hacer, Ej: convertirse en mayusculas
+
+propiedad: son las caracteristicas que la cadena tiene por ser una cadena. ej: longitud
+
+se emplean usando la nomenclatura del punto.
+
+cadena.método (los metodos tienen que llevar parentesis, a veces los parentesis tienen que llevar algun parametro)
+
+cadena.propiedad

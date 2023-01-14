@@ -1,0 +1,15 @@
+los objetos pueden tener funciones asociadas a el. En ese caso se les denomina Metodos (si la funcion pertenecen a un objeto se le llama metodos y si lo emos creado nosostros se llama funcion)
+
+para crear un objeto utilizando la clase o plantilla se hace con la palabra reservada new y el nombre de la clase que queremos utilizar
+
+const juan = new persona ('juan', 'garcia', 23)
+
+una vez instanciado el obejto podremos acceder a sus propiedades y metodos utilizando la nomenclatura del punto o buscando su propiedad en el objeto
+
+juan.nombre     juan['nombre']
+
+juan.apellido    juan['apellido']
+
+juan.Saludar()  juan['saludar']()
+
+una vez Instanciado el objeto podremos acceder a sus propiedades y métodos utilizando la nomenclatura del punto o buscando su propiedad en el objeto.

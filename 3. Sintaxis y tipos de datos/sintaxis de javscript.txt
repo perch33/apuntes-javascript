@@ -1,0 +1,17 @@
+Sintaxis de Javascript
+
+-Es case sensitive (significa que distingue mayuscula de minusculas)
+-Numero no es igual que Numero
+
+
+-Es de tipado debil o dinamico
+-las variables son del tipo del dato que almacenen;
+
+
+-las sentencias finalizan con ";"
+-no es obligatorio pero muy recomendable
+
+
+
+-los bloques finalizan con }
+-de forma opcional se pude añadir ; desde de }

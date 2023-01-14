@@ -1,0 +1,29 @@
+El objeto math es un objeto estatico, significa que tenemos que usar su nombre para utilizarlo (no podemos usarlo como variable)
+
+objeto math
+
+Es un objeto que se utiliza para operaciones matematicas mas especificas.
+
+al ser un objeto tambien utiliza la nomenclatura del punto
+
+propiedades:
+
+Math.E - Math.pi
+
+Métodos:
+
+Math.abs(x) devuelve el valor absoluto de x
+
+Math.ceil(X) devuelve el entero mas grande mayor o igual que un numero
+
+Math.floor(X) devuelve el entero mas pequeño menor o igual que un numero
+
+Math.sqrt(x) devuelve la raiz cuadrada de x
+
+Math.pow(x,y) devuelve la potencia de x elevado a y
+
+Math.random() genera un numero pseudoaleatorio entre 0 y 1
+
+Math.round(X) devuelve el valor de un numero redondeado al entero mas cercano
+
+Math.sign(X) devuelve el signo de la x, que indica si x es positivo, negativo o cero

@@ -1,0 +1,13 @@
+-primitivos (por defectos)
+
+Numeros -> let numero =5;
+
+String (cadenas) -> let palabra='hola'; let palabra = "hola";
+
+Boolean -> let respuesta= true (si se cumple); let respuesta= false;(no se cumple)
+
+Undefined
+
+Null
+
+Symbol

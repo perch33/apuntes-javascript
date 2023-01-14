@@ -1,0 +1,15 @@
+clases - propiedades
+
+son plantillas que se utilizan para crear objetos iguales
+
+cuando creamos un objeto, a esa accion se le denomina instanciar un objeto
+
+necesitamos una funcion constructora. se tiene que llamar constructor y se ejecuta cada vez que creemos un objeto
+
+(se recomienda poner el nombre de la clase en Mayuscula)
+
+-para asignar esos valores al objeto utilizamos la palabra reservada this.
+
+nombre del objeto - nombre del objeto
+
+-se les pueden asignar propiedades que no haya en los parametros, pero siempre utilizando this para referenciar al objeto

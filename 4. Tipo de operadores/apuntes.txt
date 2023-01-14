@@ -1,0 +1,49 @@
+operadores en javascript
+
+
+
+matematicos
+
+suma / concatenacion   +
+
+resta -
+
+multiplicacion *
+
+division /
+
+modulo % (devuelve el resto de una division)
+
+
+
+
+
+asignacion
+
+
+
+asignacion    =
+
+suma y asignacion   a+=3 (a = a + 3)
+
+resta y asignacion   a-=3 (a = a - 3)
+
+multiplicacion y asignacion   a*=3 (a = a * 3)
+
+division y asignacion   a/=2 (a = a / 2)
+
+modulo y asignacion   a%=2 (a = a % 2)
+
+
+
+
+
+incremento / decremento
+
+post-incremento en1       a++   (incrementar la variable en 1, primero se devuelve la variable y despues se incrementa)
+
+pre-incremento en1       ++a  (incrementar la variable en 1, primero se incrementa la variable y despues se devuelve)
+
+post-decremento en1       a--
+
+pre-decremento en1       --a
