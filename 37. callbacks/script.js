@@ -21,7 +21,6 @@ getUser(1, (error, user) => {
   }
 }); */
 
-
 const users = [
   {
     id: 1,
@@ -50,12 +49,35 @@ const emails = [
 
 const getUser = (id, cb) => {
   const user = users.find((user) => user.id == id);
-  if (user) {
-    cb("no existe usuario");
+  if (!user) {
+    cb(`no existe usuario con este id ${id}`);
   } else {
     cb(null, user);
   }
 };
 
-getUser(1);
+const getEmail = (user, cb) => {
+  const email = emails.find((email) => email.id == user.id);
+  if (!email) {
+    cb(`${users.name} este usuario no tiene email`);
+  } else {
+    cb(null, {
+      id: user.id,
+      name: user.email,
+      email: email.email,
+    });
+  }
+};
 
+getUser(4, (err, user) => {
+  if (err) {
+    return console.log(err);
+  }
+  // console.log(user);
+  getEmail(user, (err, res) => {
+    if (err) {
+      return console.log(err);
+    }
+    console.log(res);
+  });
+});
