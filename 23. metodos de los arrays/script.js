@@ -16,6 +16,11 @@ Arrays - Métodos II
 .filter(callback) - Filtra todos los elementos del array que cumplan la condición y devuelve un nuevo array
 
 .reduce(callback) - Reduce todos los elementos del array a un único valor
+
+.find() - devuelve el valor del primer elemento del array que cumple la función de prueba proporcionada, si no existe devuelve undefined
+
+.includes() - determina si una matriz incluye un determinado elemento, devuelve true o false según corresponda.
+
 */
 
 /* from */
@@ -129,3 +134,34 @@ const userOnline = user.reduce((cont, user) => {
 },0);
 
 console.log(`hay ${userOnline} usuarios conectados`); */
+
+/* find() */
+
+const array1 = [5, "percy2", 8, 130, "percy3"];
+
+const found = array1.find((element) => element > 10);
+
+const nombres = array1.find((nombre) => nombre == "percy");
+
+console.log(nombres);
+
+console.log(found);
+// Expected output: 12
+
+
+
+
+/* includes() */
+/* 
+const array1 = [1, 2, 3];
+
+console.log(array1.includes(2));
+// Expected output: true
+
+const pets = ['react', 'percy', 'javascript'];
+
+console.log(pets.includes('percy'));
+// Expected output: true
+
+console.log(pets.includes('at'));
+// Expected output: false */
