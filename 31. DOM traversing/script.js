@@ -25,6 +25,17 @@ Cercano
     - closest(selector) - Selecciona el nodo más cercano que cumpla      con el selector, aún es experimental.
 */
 
+
+
+/* 
+//visible
+.clientHeight - la propiedad devuelve la altura visible de un elemento en píxeles, incluido el padding, pero no el borde, la barra de desplazamiento (scroll) o el margen; y la propiedad es solo de lectura.
+
+//no visible
+.scrollHeight -  la propiedad es solo de lectura, mide la altura del contenido de un elemento, incluido el contenido no visible en el pantalla debido al desbordamiento, incluye el padding!
+
+*/
+
 const parent = document.getElementById("parent");
 
 //console.log(parent.parentElement)
