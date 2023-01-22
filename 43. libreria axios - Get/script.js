@@ -1,6 +1,7 @@
 const button = document.getElementById("button");
 
 //res = response = respuesta
+//version clásica con promesas del código anterior
 /* button.addEventListener("click", () => {
   fetch("https://jsonplaceholder.typicode.com/users")
     .then((res) => (res.ok ? Promise.resolve(res) : Promise.reject(res)))
