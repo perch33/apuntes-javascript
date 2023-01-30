@@ -44,8 +44,8 @@ terms.addEventListener("change", (e) => {
 });
 
 const validateForm = () => {
-  const formValue = Object.values(formIsValid);
-  const valid = formValue.findIndex((value) => value == false);
+  const formValue = Object.values(formIsValid);/* Object.value es para convertir los objetos en arreglos */
+  const valid = formValue.findIndex((value) => value == false);/* buscamos si existe algún false */
   if (valid == -1) {
     form.submit();
   } else {
