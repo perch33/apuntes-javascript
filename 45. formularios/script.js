@@ -15,6 +15,7 @@ const formIsValid = {
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
+  validateForm();
 });
 
 /*"change" registra el evento siempre y cuando el valor del campo haiga cambiado */
@@ -30,7 +31,7 @@ email.addEventListener("change", (e) => {
   }
 });
 gender.addEventListener("change", (e) => {
-  if ((e.target.checked = "true")) {
+  if ((e.target.checked = true)) {
     formIsValid.gender = true;
   }
 });
@@ -41,3 +42,13 @@ terms.addEventListener("change", (e) => {
     ? button.removeAttribute("disabled")
     : button.setAttribute("disabled", true);
 });
+
+const validateForm = () => {
+  const formValue = Object.values(formIsValid);
+  const valid = formValue.findIndex((value) => value == false);
+  if (valid == -1) {
+    form.submit();
+  } else {
+    alert("form invalid");
+  }
+};
