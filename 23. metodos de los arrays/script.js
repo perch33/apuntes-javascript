@@ -19,6 +19,8 @@ Arrays - Métodos II
 
 .find() - devuelve el valor del primer elemento del array que cumple la función de prueba proporcionada, si no existe devuelve undefined
 
+.findIndex() - devuelve el índice del primer elemento de un array que cumpla con la función de prueba proporcionada. En caso contrario devuelve -1
+
 .includes() - determina si una matriz incluye un determinado elemento, devuelve true o false según corresponda.
 
 */
@@ -137,7 +139,7 @@ console.log(`hay ${userOnline} usuarios conectados`); */
 
 /* find() */
 
-const array1 = [5, "percy2", 8, 130, "percy3"];
+/* const array1 = [5, "percy2", 8, 130, "percy3"];
 
 const found = array1.find((element) => element > 10);
 
@@ -145,11 +147,8 @@ const nombres = array1.find((nombre) => nombre == "percy");
 
 console.log(nombres);
 
-console.log(found);
+console.log(found); */
 // Expected output: 12
-
-
-
 
 /* includes() */
 /* 
@@ -165,3 +164,18 @@ console.log(pets.includes('percy'));
 
 console.log(pets.includes('at'));
 // Expected output: false */
+
+/* finIndex() */
+const numbers = [1, 2, 8, 130, 44];
+
+const isLargeNumber = (element) => element > 13;
+
+console.log(numbers.findIndex(isLargeNumber));
+// Expected output: 3
+
+const fruits = ["apple", "banana", "cantaloupe", "blueberries", "grapefruit"];
+
+const index = fruits.findIndex((fruit) => fruit === "blueberries");
+
+console.log(index); // 3
+console.log(fruits[index]); // blueberries
