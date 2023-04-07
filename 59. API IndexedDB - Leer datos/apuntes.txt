@@ -1,0 +1,14 @@
+IndexDB
+
+-Es una manera de almacenar datos de manera persistente en el navegador.
+-Almacena pares de llave-valor. Los valores pueden ser objetos con estructuras complejas, y la API de IndexDB es mayormente asíncrona.
+-IndexDB usa eventos Dom para notificar cuando los resultados están disponibles.
+-IndexDB es orientada a objetos.
+
+
+IndexDB Creación
+
+-Crear la base de datos a traves del objeto IndexDB y el método open()
+-comprobar si la base de datos existe o tiene que ser creada a traves del método onupgradeneeded()
+-crear almacén de objetos con el método createObjetStore()
+-escuchar los eventos de éxito y de error con los métodos onsuccess() y onerror()
